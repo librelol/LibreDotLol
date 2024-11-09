@@ -1,0 +1,200 @@
+[
+    {
+        "title": "VPN",
+        "links": [
+            { 
+                "name": "Mullvad VPN", 
+                "url": "https://mullvad.net", 
+                "icon": "mdi-vpn", 
+                "iconType": "mdi",
+                "color": "#008000", 
+                "description": "A trusted VPN provider known for privacy and security." 
+            },
+            {
+                "name": "IVPN",
+                "url": "https://www.ivpn.net",
+                "icon": "mdi-vpn",
+                "iconType": "mdi",
+                "color": "#000000",
+                "disclaimer": "IVPN is hosted in Germany, a five eyes country.",
+                "description": "A 2nd best to mullvad."
+            },
+            { 
+                "name": "Proton VPN", 
+                "url": "https://protonvpn.com/", 
+                "icon": "https://cdn.simpleicons.org/protonvpn/8B89CC", 
+                "iconType": "simple",
+                "color": "#8B89CC", 
+                "disclaimer": "Proton and it's services are not fully open-source.",
+                "description": "Usable privacy-focused VPN service." 
+            }
+        ]
+    },
+    {
+        "title": "Browsers",
+        "links": [
+            { 
+                "name": "LibreWolf", 
+                "url": "https://librewolf.net", 
+                "icon": "https://cdn.simpleicons.org/librewolf/0088cc", 
+                "iconType": "simple",
+                "color": "#0088cc", 
+                "description": "A privacy-focused, secure browser based on Firefox." 
+            },
+            { 
+                "name": "Mullvad Browser", 
+                "url": "https://mullvad.net/en/browser", 
+                "icon": "mdi-web",
+                "iconType": "mdi",
+                "color": "#FF0000", 
+                "description": "A browser designed for privacy and security, developed by Mullvad." 
+            },
+            {
+                "name": "Tor Browser",
+                "url": "https://www.torproject.org/download/",
+                "icon": "https://cdn.simpleicons.org/torproject/7E4798",
+                "iconType": "simple",
+                "color": "#7E4798",
+                "description": "Browse the internet anonymously using the Tor network."
+            }
+        ]
+    },
+    {
+        "title": "Password Managers",
+        "links": [
+            { 
+                "name": "KeePassXC", 
+                "url": "https://keepassxc.org", 
+                "icon": "https://cdn.simpleicons.org/keepassxc/6CAC4D", 
+                "iconType": "simple",
+                "color": "#6CAC4D", 
+                "description": "A free and open-source password manager." 
+            },
+            { 
+                "name": "Bitwarden", 
+                "url": "https://bitwarden.com", 
+                "icon": "https://cdn.simpleicons.org/bitwarden/175DDC", 
+                "iconType": "simple",
+                "color": "#175DDC", 
+                "description": "A secure and open-source password management solution." 
+            },
+            {
+                "name": "ProtonPass",
+                "url": "https://proton.me/pass",
+                "icon": "https://cdn.simpleicons.org/proton/8B89CC",
+                "iconType": "simple",
+                "color": "#8B89CC",
+                "disclaimer": "Proton and it's services are not fully open-source.",
+                "description": "A secure and privacy-focused password manager by Proton."
+            }
+        ]
+    },
+    {
+        "title": "Email",
+        "links": [
+            { 
+                "name": "ProtonMail", 
+                "url": "https://protonmail.com", 
+                "icon": "https://cdn.simpleicons.org/protonmail/8B89CC", 
+                "iconType": "simple",
+                "color": "#8B89CC", 
+                "description": "A secure and privacy-focused email service." 
+            },
+            { 
+                "name": "Tutanota", 
+                "url": "https://tutanota.com", 
+                "icon": "https://cdn.simpleicons.org/tutanota/8400D3", 
+                "iconType": "simple",
+                "color": "#8400D3", 
+                "description": "A secure and privacy-focused email service." 
+            }
+        ]
+    },
+    {
+        "title": "Cloud Storage",
+        "links": [
+            { 
+                "name": "Tresorit", 
+                "url": "https://tresorit.com", 
+                "icon": "mdi-file", 
+                "iconType": "mdi",
+                "color": "#00BDFD", 
+                "description": "A secure and privacy-focused cloud storage service." 
+            },
+            {
+                "name": "Mega",
+                "url": "https://mega.nz",
+                "icon": "https://cdn.simpleicons.org/mega/D90007",
+                "iconType": "simple",
+                "color": "#D90007",
+                "description": "A secure and privacy-focused cloud storage service."
+            },
+            {
+                "name": "ProtonDrive",
+                "url": "https://proton.me/drive",
+                "icon": "https://cdn.simpleicons.org/protondrive/8B89CC",
+                "iconType": "simple",
+                "color": "#8B89CC",
+                "description": "A secure and privacy-focused cloud storage service by Proton."
+            }
+        ]
+    },
+    {
+        "title": "Search Engines",
+        "links": [
+            { 
+                "name": "DuckDuckGo", 
+                "url": "https://duckduckgo.com", 
+                "icon": "https://cdn.simpleicons.org/duckduckgo/DE5833", 
+                "iconType": "simple",
+                "color": "#DE5833", 
+                "description": "A privacy-focused search engine." 
+            },
+            { 
+                "name": "Startpage", 
+                "url": "https://startpage.com", 
+                "icon": "mdi-magnify", 
+                "iconType": "mdi",
+                "color": "#009688", 
+                "description": "A privacy-focused search engine." 
+            },
+            {
+                "name": "Searx", 
+                "url": "https://search.libre.lol", 
+                "icon": "https://cdn.simpleicons.org/searxng/0088cc", 
+                "iconType": "simple",
+                "color": "#0088cc", 
+                "description": "Search the web privately with Searx which uses results from multiple search engines." 
+            }
+        ]
+    },
+    {
+        "title": "Social Media",
+        "links": [
+            { 
+                "name": "Mastodon", 
+                "url": "https://joinmastodon.org", 
+                "icon": "https://cdn.simpleicons.org/mastodon/3088D4", 
+                "iconType": "simple",
+                "color": "#3088D4", 
+                "description": "A decentralized social media platform." 
+            },
+            { 
+                "name": "Element",
+                "url": "https://element.io",
+                "icon": "https://cdn.simpleicons.org/element/00A6F0",
+                "iconType": "simple",
+                "color": "#00A6F0",
+                "description": "A secure and privacy-focused messaging platform."
+            },
+            {
+                "name": "Bluesky",
+                "url": "https://bsky.app/",
+                "icon": "https://cdn.simpleicons.org/bluesky/1DA1F2",
+                "iconType": "simple",
+                "color": "#1DA1F2",
+                "description": "A decentralized social media platform by Twitter."
+            }
+        ]
+    }
+]

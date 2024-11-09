@@ -1,0 +1,14 @@
+{
+  "titles": [
+    "// Did you remember to add in that backdoor? Remember to remove this message",
+    "Ever hear of XKeyScore?",
+    "'Your privacy is important' - Not the cia",
+    "'What's reality? I don't know...' - Terry Davis'",
+    "What is this?",
+    "'Linux is designed like a 1970’s mainframe.' - Terry Davis"
+  ],
+  "alert": {
+    "enabled": true,
+    "message": "We lost all the data during migration, sadly we didn't have any backups. Though there wan't anything critical lost but we will implement backing up data in the coming weeks one off site and one located in my home server. Further we also are running in raid now."
+  }
+}

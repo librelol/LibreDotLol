@@ -1,0 +1,133 @@
+[
+  {
+    "title": "Search & Browsing",
+    "links": [
+      {
+        "name": "Searx",
+        "url": "https://searx.libre.lol",
+        "icon": "https://cdn.simpleicons.org/searxng/0088cc",
+        "iconType": "simple",
+        "color": "#0088cc",
+        "description": "Search the web privately with aggregated results."
+      },
+      {
+        "name": "Invidious",
+        "url": "https://inv.libre.lol",
+        "icon": "mdi-play-box",
+        "iconType": "mdi",
+        "color": "#FF0000",
+        "description": "Watch YouTube videos securely without ads."
+      },
+      {
+        "name": "Wikiless",
+        "url": "https://wikiless.libre.lol",
+        "icon": "mdi-wikipedia",
+        "iconType": "mdi",
+        "color": "#FFFFFF",
+        "description": "Access Wikipedia without tracking."
+      },
+      {
+        "name": "GotHub",
+        "url": "https://gothub.libre.lol",
+        "icon": "mdi-github",
+        "iconType": "mdi",
+        "color": "#FFFFFF",
+        "description": "Browse GitHub without tracking."
+      },
+      {
+        "name": "Redlib",
+        "url": "https://redlib.libre.lol",
+        "icon": "https://cdn.simpleicons.org/reddit/FF4500",
+        "iconType": "simple",
+        "color": "#FF5722",
+        "description": "A privacy-focused, open-source front-end for Reddit."
+      }
+    ]
+  },
+  {
+    "title": "Development & Code Hosting",
+    "links": [
+      {
+        "name": "Git",
+        "url": "https://git.libre.lol",
+        "icon": "mdi-git",
+        "iconType": "mdi",
+        "color": "#F05032",
+        "disclaimer": "Due to us running this in a docker container SSH access is on port 2222 instead of 22",
+        "description": "Free, open-source Git hosting powered by Gitea."
+      }
+    ]
+  },
+  {
+    "title": "Security & Privacy",
+    "links": [
+      {
+        "name": "Vaultwarden",
+        "url": "https://vw.libre.lol",
+        "icon": "mdi-lock",
+        "iconType": "mdi",
+        "color": "#FFD700",
+        "description": "Securely manage your passwords with a self-hosted Bitwarden."
+      },
+      {
+        "name": "WebCheck",
+        "url": "https://webcheck.libre.lol",
+        "icon": "mdi-web",
+        "iconType": "mdi",
+        "color": "#6200EE",
+        "description": "Analyze a website's security and performance."
+      },
+      {
+        "name": "CyberChef",
+        "url": "https://cyberchef.libre.lol",
+        "icon": "mdi-cogs",
+        "iconType": "mdi",
+        "color": "#4CAF50",
+        "description": "Transform and decode data with an intuitive interface."
+      }
+    ]
+  },
+  {
+    "title": "File Sharing & Links",
+    "links": [
+      {
+        "name": "Snapdrop",
+        "url": "https://snap.libre.lol",
+        "icon": "mdi-file-send",
+        "iconType": "mdi",
+        "color": "#1E88E5",
+        "description": "Share files securely between devices."
+      },
+      {
+        "name": "Slash",
+        "url": "https://url.libre.lol",
+        "icon": "mdi-link-variant",
+        "iconType": "mdi",
+        "color": "#4CAF50",
+        "description": "Create and share shortened links."
+      },
+      {
+        "name": "Private Bin",
+        "url": "https://paste.libre.lol",
+        "icon": "mdi-code-braces",
+        "iconType": "mdi",
+        "color": "#FF9800",
+        "disclaimer": "We expect there not to be the greatest intentions in using this. Please refrain from posting personal information to our PrivateBin. Thank you for your cooperation.",
+        "description": "A privacy-focused paste bin alternative."
+      }
+    ]
+  },
+  {
+    "title": "Tools",
+    "links": [
+      {
+        "name": "Stirling PDF",
+        "url": "https://stirlingpdf.libre.lol",
+        "icon": "mdi-file-pdf-box",
+        "iconType": "mdi",
+        "color": "#E63946",
+        "description": "A privacy tool for viewing and editing PDFs."
+      }
+    ]
+  }
+]

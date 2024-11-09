@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Browser Usage",
+    "options": [
+      { "label": "I don't mind being tracked but still like privacy", "response": "Consider using something like LibreWolf or turn on auto delete cookies after exiting", "points": 1 },
+      { "label": "I don't want to be tracked", "response": "Use a browser like Mullvad Browser", "points": 2 },
+      { "label": "I want basic anonynimity online.", "response": "Use Tor Browser for maximum privacy.", "points": 3 },
+      {"label": "I need maximum privacy and security", "response": "Use a virtual machine like Whonix or Whonix+QubesOS alongside a VPN", "points": 4 }
+    ]
+  },
+  {
+    "text": "Email Security",
+    "options": [
+      { "label": "I want basic privacy when it comes to my emails", "response": "Consider using a basic email service like ProtonMail or Tutanota that respect your privacy", "points": 1 },
+      { "label": "I want my emails to be encrypted with privacy", "response": "Use your own GPG key to encrypt your emails before sending while using trusted email platforms like ProtonMail and Tutanota", "points": 2 },
+      { "label": "I require full encryption and anonymity in my communications.", "response": "Use tor to access your email inbox, creating a new email account for any online identities, while using your own GPG wherever you can", "points": 3 }
+    ]
+  },
+  {
+    "text": "Social Media",
+    "options": [
+      { "label": "I want to use mainstream social media", "response": "That's fine; just make sure to review your privacy options and delete unnecessary profiles.", "points": 1 },
+      { "label": "I want to use social media without losing my privacy", "response": "Consider using alternative platforms like Odysee and Mastodon with random usernames.", "points": 2 },
+      { "label": "I don't want to be tracked on Social Media", "response": "Delete all social media, only creating accounts for one-time use when needed.", "points": 3 }
+    ]
+  },
+  {
+    "text": "Instant Messaging",
+    "options": [
+      { "label": "I want some security and privacy for my messages", "response": "Consider using mainstream messaging apps like WhatsApp and Telegram", "points": 1 },
+      { "label": "I want encryption and privacy when it comes to my messages", "response": "Consider using alternative messaging apps like Element and Signal", "points": 2 },
+      { "label": "I don't want to be tracked at all with complete anonymimity", "response": "Consider using Matrix and Session for maximum privacy", "points": 3 }
+    ]
+  },
+  {
+    "text": "Password Management",
+    "options": [
+      { "label": "I want to be able to access my passwords from anywhere", "response": "Consider options like Bitwarden and ProtonPass.", "points": 1 },
+      { "label": "I want to use my password manager from anywhere but don't trust them with my data", "response": "Consider a self-hosted Bitwarden instance or KeePassXC stored on a file hosting platform", "points": 2 },
+      { "label": "I don't mind being able to access my passwords from anywhere.", "response": "Consider using KeePassXC on a trusted computer without sharing it to multiple devices", "points": 3 },
+      { "label": "I need to protect my passwords at all cost", "response": "Consider using KeePassXC on a trusted computer stored within a always offline encrypted virtual machine", "points": 3 }
+    ]
+  },
+  {
+    "text": "Operating System",
+    "options": [
+      { "label": "I just don't like being tracked on by Microsoft or Apple", "response": "Consider using debloating tools and firewalls to prevent microsoft from tracking you", "points": 1 },
+      { "label": "I can't need more privacy and security than what is offered by Windows or Apple", "response": "Consider using a Linux Operating system like Ubuntu, Debian, or Fedora", "points": 2 },
+      { "label": "I need protection but usability", "response": "Consider using Tails OS for when you need extra alongside a linux operating system", "points": 3 },
+      { "label": "I need maximum privacy and security", "response": "Consider using Qubes OS for maximum security and privacy", "points": 4 }
+    ]
+  },
+  {
+    "text": "Internet Usage",
+    "options": [
+      { "label": "I don't mind if my IP address is exposed.", "response": "Consider using a standard internet connection.", "points": 1 },
+      { "label": "I want to protect my IP address", "response": "Make it a habit to always use a VPN.", "points": 2 },
+      { "label": "I need maximum protection from being tracked through my IP address.", "response": "Use a reliable VPN service and tor to ensure maximum privacy", "points": 3 }
+    ]
+  }
+  
+]

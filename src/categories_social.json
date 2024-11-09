@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Social Links",
+        "links": [
+            { 
+                "name": "Telegram", 
+                "url": "https://t.me/+uSJtGzPPWhM5NmFh", 
+                "icon": "https://cdn.simpleicons.org/telegram/0088cc", 
+                "iconType": "simple",
+                "color": "#0088cc", 
+                "description": "Join our Telegram channel for updates and discussions." 
+            },
+            { 
+                "name": "X", 
+                "url": "https://x.com/librelol", 
+                "icon": "https://cdn.simpleicons.org/x/FFFFFF", 
+                "iconType": "simple",
+                "color": "#FFFFFF", 
+                "description": "Follow us on X for news and announcements." 
+            },
+            {
+                "name": "Mastodon",
+                "url": "https://mastodon.social/@librelol",
+                "icon": "mdi-mastodon",
+                "iconType": "mdi",
+                "color": "#3088D4",
+                "description": "Follow us on Mastodon for updates and discussions."
+            },
+            {
+                "name": "Discord",
+                "url": "https://discord.gg/8uW2ZQJ",
+                "icon": "https://cdn.simpleicons.org/discord/7289DA",
+                "iconType": "simple",
+                "color": "#7289DA",
+                "description": "Join our Discord server for discussions and support."
+            }
+        ]
+    }
+]
