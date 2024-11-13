@@ -9,8 +9,7 @@
             <div>
               <h2 class="headline">404 - Page Not Found</h2>
               <p>Sorry, the service you are trying to access doesn't exist or is currently down.</p>
-              <p>If you are certain that the service exists, please check back later or check our <a href="https://your-socials-link.com" target="_blank">socials</a> for any updates.</p>
-            </div>
+              <p>If you are certain that the service exists, please check back later or check our socials for any updates. Which they can be found on our home page.</p>
           </v-alert>
         </v-col>
       </v-row>
