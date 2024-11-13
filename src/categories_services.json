@@ -92,19 +92,11 @@
     "links": [
       {
         "name": "Snapdrop",
-        "url": "https://snap.libre.lol",
+        "url": "https://snapdrop.libre.lol",
         "icon": "mdi-file-send",
         "iconType": "mdi",
         "color": "#1E88E5",
         "description": "Share files securely between devices."
-      },
-      {
-        "name": "Slash",
-        "url": "https://url.libre.lol",
-        "icon": "mdi-link-variant",
-        "iconType": "mdi",
-        "color": "#4CAF50",
-        "description": "Create and share shortened links."
       },
       {
         "name": "Private Bin",
@@ -114,6 +106,14 @@
         "color": "#FF9800",
         "disclaimer": "We expect there not to be the greatest intentions in using this. Please refrain from posting personal information to our PrivateBin. Thank you for your cooperation.",
         "description": "A privacy-focused paste bin alternative."
+      },
+      {
+        "name": "Libre Post",
+        "url": "https://post.libre.lol",
+        "icon": "mdi-post",
+        "iconType": "mdi",
+        "color": "#4CAF50",
+        "description": "A platform for secure, decentralized posting."
       }
     ]
   },
