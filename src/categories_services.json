@@ -127,7 +127,15 @@
         "iconType": "mdi",
         "color": "#E63946",
         "description": "A privacy tool for viewing and editing PDFs."
-      }
+      },
+      {
+        "name": "Libre Speed",
+        "url": "https://speedtest.libre.lol",
+        "icon": "mdi-speedometer",
+        "iconType": "mdi",
+        "color": "#2196F3",
+        "description": "Test your internet speed with a privacy-focused, open-source tool."
+      }      
     ]
   }
 ]
