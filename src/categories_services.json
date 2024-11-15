@@ -123,7 +123,7 @@
     "links": [
       {
         "name": "Stirling PDF",
-        "url": "https://stirlingpdf.libre.lol",
+        "url": "https://pdf.libre.lol",
         "icon": "mdi-file-pdf-box",
         "iconType": "mdi",
         "color": "#E63946",
