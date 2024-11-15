@@ -16,7 +16,8 @@
         "icon": "mdi-play-box",
         "iconType": "mdi",
         "color": "#FF0000",
-        "description": "Watch YouTube videos securely without ads."
+        "description": "Watch YouTube videos securely without ads.",
+        "disclaimer": "There is a high chance that this service isn't working. Please do not report any downtime. Thank you."
       },
       {
         "name": "Wikiless",
@@ -135,7 +136,15 @@
         "iconType": "mdi",
         "color": "#2196F3",
         "description": "Test your internet speed with a privacy-focused, open-source tool."
-      }      
+      },
+      {
+        "name": "Libre Translate",
+        "url": "https://translate.libre.lol",
+        "icon": "mdi-translate",
+        "iconType": "mdi",
+        "color": "#FF5722",
+        "description": "Open-source privacy-oriented translating application."
+      }
     ]
   }
 ]
