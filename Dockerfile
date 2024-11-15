@@ -32,6 +32,6 @@ EXPOSE 3030
 CMD ["nginx", "-g", "daemon off;"]
 
 # Healthcheck command
-HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
-  CMD true
+# HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+#   CMD true
 
