@@ -30,8 +30,3 @@ EXPOSE 3030
 
 # Step 11: Start Nginx server
 CMD ["nginx", "-g", "daemon off;"]
-
-# Healthcheck command
-# HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
-#   CMD true
-
