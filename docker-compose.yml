@@ -1,0 +1,5 @@
+services:
+  app:
+    build: .  # Build the Docker image from the current directory
+    ports:
+      - "3030:3030"  # Map port 30 on host to port 30 on container
