@@ -146,5 +146,18 @@
         "description": "Open-source privacy-oriented translating application."
       }
     ]
+  },
+  {
+    "title": "Social",
+    "links": [
+      {
+        "name": "Joplin",
+        "url": "https://joplin.libre.lol",
+        "icon": "mdi-notebook",
+        "iconType": "mdi",
+        "color": "#008000",
+        "description": "A secure, open-source note-taking and to-do application for managing your personal or collaborative notes."
+      }
+    ]
   }
 ]
