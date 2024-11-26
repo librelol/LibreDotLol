@@ -26,7 +26,7 @@ To install and run the LibreLolWebsite locally, follow these steps:
 
 ## Production
 
-This website is designed to work on Coolify. If you want to test it in production mode, ensure you follow the development steps first. The production version runs on port 3030 to avoid conflicts with existing services.
+This website is designed to work on Coolify. If you want to test it in production mode, ensure you follow the development steps first. The production version runs on port 3000 to avoid conflicts with existing services.
 
 1. Build the Docker image:
     ```bash
@@ -34,7 +34,7 @@ This website is designed to work on Coolify. If you want to test it in productio
     ```
 2. Run the Docker container:
     ```bash
-    docker run -p 3030:3030 librelol-frontend
+    docker run -p 3000:3000 librelol-frontend
     ```
 
 ## Contributing

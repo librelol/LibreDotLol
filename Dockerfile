@@ -25,8 +25,7 @@ COPY --from=build-stage /app/dist /usr/share/nginx/html
 # Step 9: Copy the custom Nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Step 10: Expose port 3030
-EXPOSE 3030
+EXPOSE 3000
 
 # Step 11: Start Nginx server
 CMD ["nginx", "-g", "daemon off;"]
