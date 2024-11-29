@@ -157,6 +157,14 @@
         "iconType": "mdi",
         "color": "#008000",
         "description": "A secure, open-source note-taking and to-do application for managing your personal or collaborative notes."
+      },
+      {
+        "name": "Jitsi",
+        "url": "https://jitsi.libre.lol",
+        "icon": "mdi-video",
+        "iconType": "mdi",
+        "color": "#FF0000",
+        "description": "A secure, open-source video conferencing platform."
       }
     ]
   }

@@ -48,7 +48,7 @@
             >
               Social
             </v-btn>
-              <v-btn 
+            <v-btn 
               color="yellow" 
               href="https://cloud.libre.lol"
               class="my-2" 
@@ -56,17 +56,25 @@
             >
               Libre Cloud (NextCloud)
             </v-btn>
-                      <v-card-title class="card-title">
-            {{ randomTitle }}
-          </v-card-title>
-          <v-card-text>
-            <p>
-              Welcome to Libre.lol, I like to make three letter agencies and corporations cry. Use my own self-hosted services or ones I recommend. I am a privacy advocate and I believe in freedom of speech.
-            </p>
-            <p>
-              Our servers restart at 3 AM GMT
-            </p>
-          </v-card-text>
+            <v-btn 
+              color="orange" 
+              @click="toggleRandomTitle" 
+              class="my-2" 
+              width="250"
+            >
+              Toggle Random Title
+            </v-btn>
+            <v-card-title class="card-title" v-if="showRandomTitle">
+              {{ randomTitle }}
+            </v-card-title>
+            <v-card-text>
+              <p>
+                Welcome to Libre.lol, I like to make three letter agencies and corporations cry. Use my own self-hosted services or ones I recommend. I am a privacy advocate and I believe in freedom of speech.
+              </p>
+              <p>
+                Our servers restart at 3 AM GMT
+              </p>
+            </v-card-text>
           </div>
         </v-card>
       </v-col>
@@ -94,6 +102,7 @@ export default {
       randomTitle: '',
       alertEnabled: config.alert.enabled,
       alertMessage: config.alert.message,
+      showRandomTitle: false, // New data property
     };
   },
   mounted() {
@@ -103,6 +112,9 @@ export default {
     setRandomTitle() {
       const randomIndex = Math.floor(Math.random() * this.titles.length);
       this.randomTitle = this.titles[randomIndex];
+    },
+    toggleRandomTitle() {
+      this.showRandomTitle = !this.showRandomTitle;
     }
   }
 }
